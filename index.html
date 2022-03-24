@@ -263,12 +263,14 @@
  
         <footer>
             <h2 class="title-small"> POUR NOUS RECONTACTER</h2>
-            <form action="#">
+
+            <form name="contact" method="POST" data-netlify="true" action="#">
                 <i class="fa-solid fa-envelope-open prefix"></i>             
-                <input type="text" placeholder="votre email"/>
-                <button>
+                <input type="text" name="email"  placeholder="votre email"/>
+                <button type="submit">
                     <i class="fa-solid fa-paper-plane postfix"></i>
                 </button>
+
             </form>
         </footer> 
 
